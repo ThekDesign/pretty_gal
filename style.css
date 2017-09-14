@@ -1,0 +1,129 @@
+.tab li {
+	display: inline;
+	margin: 20px;
+	font-size: 1.2em;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+.tab li a:hover {
+	color: cornflowerblue;
+}
+
+.navigation {
+	display: flex;
+	background-color: gray;
+	align-content: center;
+	justify-content: center;
+
+}
+
+.logo {
+	height: 3em;
+	margin-right: 1.5em;
+}
+
+.shop_buy {
+	margin-left: 1.5em;
+
+}
+
+.photowall {
+	position: relative;
+	background-color: black;
+	height: 30em;
+	width: auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.season {
+	position:absolute;
+	background-color: white;
+	text-align: center;
+	width: 30em;
+	opacity: 0.8;
+}
+
+.season_text {
+	font-size: 2em;
+}
+
+.btn_shop {
+	background-color: black;
+	margin: 0.75em 9em 0.75em 9em;
+	padding: 0.1em;
+}
+
+.shop_text {
+	font-size: 1em;
+	color: white;
+}
+
+.Year_round {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.picture {
+	height: 20em;
+	margin-right: 0.5em;
+	margin-bottom: 3em;
+}
+
+.info_bottom {
+
+}
+
+.connect {
+	list-style-type: none;
+}
+
+.connect_text {
+	font-size: 0.5em;
+
+}
+
+.search {
+}
+
+.search_text{
+	margin: auto;
+	margin-top: 5%;
+}
+
+.search_bar {
+	width: 100%;
+}
+
+.search_btn {
+	float: right;
+}
+
+.info_text {
+	font-size: 0.75em;
+	list-style-type: none;
+	text-align: center;
+	margin-top: 2.5em;
+}
+
+.infomation {
+	font-size: 0.75em;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.connect, .search, .info {
+	width: 30%;
+	float: left;
+	margin: 1%;
+}
+
+.all_footer {
+	background-color: grey;
+	display: inline-block;
+	width: 100%;
+}
